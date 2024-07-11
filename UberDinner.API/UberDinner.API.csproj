@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>ba351774-3040-4e06-bd52-0e0cd081f526</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\UberDinner.Contracts\UberDinner.Contracts.csproj" />
+		<ProjectReference Include="..\UberDinner.Application\UberDinner.Application.csproj" />
+		<ProjectReference Include="..\UberDinner.Infrastructure\UberDinner.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>
